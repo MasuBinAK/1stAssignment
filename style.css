@@ -1,0 +1,118 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.h1-word-color{
+    color: darkred;
+}
+.h1-color{
+    color: #3d3d3d;
+}
+body h2{
+    color:#3d3d3d;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.first-section-p{
+    color:rgb(63, 61, 42);
+}
+
+.top-div{
+    background-color: coral;
+    width: 100%;
+    text-align: center;
+    
+}
+.top-button{
+    text-decoration: none;
+    background-color: #ff9e7b;
+    padding: 0 10px;
+    border-radius: 4px;
+    color: cornsilk;
+}
+
+
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    
+
+}
+.half-width img{
+    width: 70%;
+    
+}
+
+.order-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange ,tomato);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: cornsilk;
+    box-shadow: 0 1px 20px 0 #fabb69;
+    
+}
+
+.second-section{
+    display: flex;
+    background-image: url(images/shapes/background.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.second-section-image{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    
+}
+
+.about-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange ,tomato);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: cornsilk;
+    box-shadow: 0 1px 20px 0 #fabb69;
+    
+}
+
+.about-us-p{
+    margin-top: 60px;
+    margin-right: 200px;
+}
+
+.h1-products{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+    text-align: center;
+}
+
+.footer-food{
+    color: #ff8f0e;
+    
+}
+.footer-home{
+    color:#494949;
+}
+
+.footer-div{
+    margin-top: 50px;
+    padding-top: 30px;
+    font-size: 30px;
+}
